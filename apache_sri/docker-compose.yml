@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+  apache:  
+    container_name: asir_apache 
+    image: php:7.4-apache
+    ports:
+    - '8008:80'
+    volumes:  
+    - ./html:/var/www/html
+    - confApache:/etc/apache2
+volumes:
+  confApache:
