@@ -39,7 +39,7 @@ El documento index.php debe contener lo siguiente:
 
 ~~~
 <?php
-echo "Hello World! :)"; <!-- Imprime el texto por pantalla -->
+echo "Hello World! :)"; /* Imprime el texto por pantalla */
 ?>
 ~~~
 
@@ -47,7 +47,7 @@ Para utilizar la opción phpinfo deberemos crear otro documento llamado info.php
 
 ~~~
 <?php
-phpinfo(); <!-- Enseña la información de php -->
+phpinfo(); /* Enseña la información de php */
 ?>
 ~~~
 
